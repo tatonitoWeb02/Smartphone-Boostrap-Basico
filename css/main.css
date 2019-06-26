@@ -1,0 +1,32 @@
+body {
+    font-family: 'Titillium Web', sans-serif; /*Esta familia de fuente se copia desde Google Fonts, copiando el CDN*/
+}
+
+header {
+    margin-top: 75px; /*con esto logramos que el header no quede debajo de la barra de navegación*/
+}
+
+#testimonial { /*este id viene de index.html, y desde  aqui podemos aplicarle estilos */
+    background: #f1f1f1;
+    padding: 50px 0 30px 0; /*padding de 50px arriba, 0 derecha, 30px abajo, 0 izquierda*/
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#testimonial p {
+    text-align: right;
+}
+
+footer {
+    background: url(../img/smartphones.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+/*BOTONES
+.btn:hover {
+    background-color: hotpink;
+    color: black;
+}     */  
